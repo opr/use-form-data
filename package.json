@@ -1,6 +1,6 @@
 {
   "name": "use-form-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When creating forms with React, updating an object's values can be fiddly, this hook makes it easy.",
   "main": "index.js",
   "scripts": {
