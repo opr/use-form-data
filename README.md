@@ -18,10 +18,10 @@ import useFormData from 'use-form-data';
 const [formData, setFormData] = useFormData({name: '', email: '', password: ''});
 
 return (
-<form>
-<input type="text" onChange={(e) => setFormData('name', e.target.value)} value={formData.name} />
-<input type="email" onChange={(e) => setFormData('email', e.target.value)} value={formData.email} />
-<input type="password" onChange={(e) => setFormData('password', e.target.value)} value={formData.password} />
-</form>
+    <form>
+        <input type="text" onChange={(e) => setFormData('name', e.target.value)} value={formData.name} />
+        <input type="email" onChange={(e) => setFormData('email', e.target.value)} value={formData.email} />
+        <input type="password" onChange={(e) => setFormData('password', e.target.value)} value={formData.password} />
+    </form>
 );
 ```
