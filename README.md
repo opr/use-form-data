@@ -3,6 +3,8 @@ This hook aims to solve the issue of keeping values from forms in a `useState` r
 If you represent your form values in an object, then updating this object can be repetitive and fiddly, especially if
 you have multiple forms in your app.
 
+[Demo](https://codesandbox.io/s/goofy-microservice-pqckn)
+
 # Installation
 `npm install --save use-form-data`
 
